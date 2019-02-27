@@ -92,7 +92,6 @@ void Error_Handler(void);
 #define USART_7_Tx_GPIO_Port GPIOE
 #define USART_7_Rx_Pin GPIO_PIN_7
 #define USART_7_Rx_GPIO_Port GPIOE
-#define COUNTOF(__BUFFER__)   (sizeof(__BUFFER__) / sizeof(*(__BUFFER__)))
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
