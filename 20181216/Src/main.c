@@ -71,7 +71,6 @@ UART_HandleTypeDef huart7;
 UART_HandleTypeDef huart8;
 UART_HandleTypeDef huart6;
 
-char buf[20];
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -232,7 +231,7 @@ int main(void)
   while (1)
 	{
     /* USER CODE END WHILE */
-	  
+
     /* USER CODE BEGIN 3 */
 
 		uint8_t Re[16];
